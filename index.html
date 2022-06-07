@@ -1,14 +1,377 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Kristina Wheatman</title>
-  <link rel="stylesheet"
-  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Kristina Wheatman</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
 </head>
-<body>
-  <h1>Kristina Wheatman</h1>
-  <p>Personal Site</p>
-  <p><a href="http://www.wheatman.org">The Wheatman Family</a></p>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    data-bs-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <em class="fa fa-bars"></em>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <em class="fa fa-user animated"></em> <span class="light">Kristina<span> Wheatman
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#Publications">Publications</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#Current">Current Work</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#professional">Professional Experience</a>
+                    </li>
+                    <li>
+                        <a href="./cv.pdf">CV</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class=" intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Kristina Wheatman</h1>
+                        <p class="intro-text">An Applied Mathematician with a variety of interests
+                            intellectual and otherwise.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <em class="fa fa-angle-double-down animated"></em>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <h2>About Kristina</h2>
+        <ul class="text-left" style="display:inline-block;vertical-align:middle;">
+            <p>
+                I am a PhD Student in Electrical Engineering at The Pennsylvania State University. I enjoy
+                devoting my time and attention to a variety of activities and intellectual pursuits.
+            </p>
+            <p>
+                I am fortunate to be advised by <a href="https://www.cse.psu.edu/~tfl12/">Thomas
+                    LaPorta</a> and <a href="https://www.eecs.psu.edu/departments/directory-detail-g.aspx?q=MPM114">
+                    Mark Mahon</a>.
+            </p>
+            <p>
+                My research interests include:
+            <ul class="text-left" style="display:inline-block;vertical-align:middle;">
+                <li> 5G Wireless Communications</li>
+                <li> Optimization</li>
+                <li> Resource Allocation </li>
+                <li> Accoustics </li>
+                <li> Digital Signal Processing</li>
+
+            </ul>
+            </p>
+
+
+            <p>
+                For more information on my work, go to <a class="page-scroll" href="#Publications">Publications</a> or
+                <a class="page-scroll" href="#Current">Current Work</a>.
+            </p>
+
+            <p>
+                For a list of papers and presentations, see <a
+                    href="https://scholar.google.com/citations?user=0OYFtbUAAAAJ&hl=en">
+                    Google Scholar</a>.
+            </p>
+            <p>
+                I also enjoy traveling and biking.
+            </p>
+        </ul>
+    </section>
+
+    <section id="Publications" class="container content-section text-center">
+        <h1><u>Publications</u></h1>
+
+        <!-- <section id="post" class="container text-center">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2><a href="https://ieeexplore.ieee.org/abstract/document/9671836">Streaming
+                            Sparse Graphs using Efficient Dynamic Sets</a></h2>
+                    <ul class="text-left">
+                        <details>
+                            <summary>
+                                <strong>Abstract</strong>
+                            </summary>
+                            <p>
+                                We present the SSTGraph framework for the storage and analysis of dynamic graphs.
+                                Its performance matches or exceeds state-of-the-art static graph engines and supports
+                                streaming
+                                updates. SSTGraph builds on top of the tinyset parallel, dynamic set data structure.
+                                Tinyset implements set membership in a shallow hierarchy of sorted packed memory arrays
+                                to
+                                achieve logarithmic time access and updates, and it scans in optimal linear time.
+                                Tinyset uses space comparable to that of systems that use data compression while
+                                avoiding compression's computation and serialization overhead.
+                            </p>
+                            <p>
+                                SSTGraph outperforms other streaming, dynamic graph engines on a suite of four graph
+                                algorithms.
+                                Our evaluation includes a comparison with the Aspen streaming graph system. SSTGraph
+                                reduces
+                                runtime by 40% on average, updates are 2x-5x faster on batch sizes up to 10 million, and
+                                graphs
+                                are smaller.
+                                The partitioned data structure scales well and runs on billion edge graphs in just 15 GB
+                                of
+                                memory.
+                            </p>
+                        </details>
+                        <br>
+                        <ul class="text-left" style="display:inline-block;vertical-align:middle;padding-left:0">
+
+                            <li>Presented at <a href="https://bigdataieee.org/BigData2021/index.html">IEEE
+                                    BigData 2021</a>
+                            </li>
+                            <li>
+                                For a video of the talk, see <a href="https://youtu.be/02kgqE8T0qQ">here</a>
+                            </li>
+                            <li>
+                                The code can be found on github <a href="https://github.com/wheatman/SSTGraph">https://github.com/wheatman/SSTGraph</a>
+                            </li>
+
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </section> -->
+
+    </section>
+
+    <section id="Current" class="container content-section text-center">
+        <h1><u>Current Work</u></h1>
+
+        <!-- <section id="post" class="container text-center">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Small Ordered Dynamic Sets Using
+                        Compressed Packed Memory Arrays</h2>
+                    <ul class="text-left">
+                        <details>
+                            <summary>
+                                <strong>Abstract</strong>
+                            </summary>
+                            <p>The Packed Memory Array (PMA) data structure maintains a dynamic
+                                set of 𝑛 elements in sorted order in a Θ(𝑛)-sized array by
+                                interspersing Θ(𝑛) empty spaces among elements. In practice, the
+                                PMA supports scans much faster than pointer-based structures such
+                                as trees because it stores elements contiguously in sorted order.
+                            </p>
+                            <p>
+                                This paper improves PMAs by 1) increasing update throughput
+                                with batch updates and 2) reducing space usage with data compression.
+                                Beyond fast search, insert, and deletions, efficient advanced
+                                operations such as batch updates and maps are a critical part of
+                                large-scale data-processing frameworks. Furthermore, the PMA’s
+                                asymptotics depend on a constant factor of extra space, which in
+                                practice may be infeasible on large datasets.
+                            </p>
+                            <p>
+                                Specifically, this paper introduces 1) a batch-update algorithm for
+                                PMAs and 2) a compressed PMA, which improve update throughput
+                                and space usage, respectively. Our experiments show that the PMA
+                                with batch updates supports up to 122 million updates per second. It
+                                achieves 1.6× and 1.3× faster update throughput compared toAspen
+                                and PAM, two state-of-the-art dynamic set data structures. ThePMA
+                                supports scans, which underlie maps, at over 10 billion elements per
+                                second and achieves 2.2× and 63× speedup over Aspen and PAM,
+                                respectively, on scans. Finally, the compressed PMA reduces the
+                                space usage of the PMA by about 3× while maintaining competitive
+                                update and scan throughputs.
+                            </p>
+                        </details>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </section> -->
+
+    </section>
+
+
+    <!-- Education Section -->
+    <section id="education" class="container content-section text-center">
+        <h2>Education</h2>
+        <ul class="text-left" style="display:inline-block;vertical-align:middle;">
+            <p>I am currently a PhD Student in Electrical Engineering at The Pennsylvania State University advised
+            by <a href="https://www.cse.psu.edu/~tfl12/">Thomas
+                LaPorta</a> and <a href="https://www.eecs.psu.edu/departments/directory-detail-g.aspx?q=MPM114"> Mark
+                Mahon</a>.
+            </p>
+            <p>I earned my Masters of Engineering in Acoustics from Pennsylvania State University in 2017.
+
+            </p>
+
+            <p>I earned my Bachelors of Science from Utah State University in 2012,
+                majoring in Applied Mathematics and earning a minor in Physics.
+                <hr>
+            <p>Master's Thesis:</p>
+            <!-- <h4><a href="https://dspace.mit.edu/handle/1721.1/123023">Image
+                    alignment and dynamic graph analytics : two case studies of how managing data movement
+                    can make (parallel) code run fast</a></h4>
+            <ul class="text-left">
+                <details>
+                    <summary>
+                        <strong>Abstract</strong>
+                    </summary>
+                    High performance applications are becoming increasingly resource hungry. We want to
+                    solve more complex problems and use more data to get higher quality results. However,
+                    the more data we store, the slower it is to access any piece. This effect is seen
+                    directly in the memory hierarchy. We can access our caches faster than our memory, which
+                    is faster than reading our disk, which is still faster than going across the network.
+                    This means that when processing large data sets, we can spend a large portion of our
+                    time simply in data movement. However, there is much we can do to optimize our programs
+                    to exploit our memory systems, so that we do not incur performance degradation as our
+                    datasets grow. I show how the careful design of data structures and algorithms allow us
+                    to scale to much larger datasets without impacting performance due to the cost of data
+                    movement. I demonstrate the impact of these designs with two case studies. The first
+                    examines large-scale image alignment, where I describe how to align a petabyte scale set
+                    of images in memory on a single machine and match the performance of current cluster
+                    solutions. I achieve .6 - .8 TB/hr on a medium-sized multicore and linear scalability on
+                    hundreds of nodes in a shared supercomputing cluster. The second case study explores
+                    dynamic graph analytics, where I describe the design of a new data structure for storing
+                    dynamic graphs that matches the performance of standard, static formats and enables high
+                    performance, dynamic operations achieving millions of updates per second.
+                    </p>
+                </details>
+
+            </ul> -->
+            <hr>
+            <!-- <p>For my undergraduate senior seminar paper in Discrete Math, I studied Anti-magic graphs.</p>
+            <h4><a href="https://brianwheatman.com/papers/Anti_magic.pdf">Anti-magic
+                    and Edge Graceful Graphs</a>
+            </h4> -->
+
+            <hr>
+
+            <!-- <p>For my undergraduate senior research paper in Computer Science, I studied a variant of the Traveling
+                Salesman
+                Problem.</p>
+            <h4><a href="https://brianwheatman.com/papers/Tourist_Path_Optimization_Problem.pdf">Tourist
+                    Path
+                    Optimization
+                    Problem</a></h4> -->
+
+
+        </ul>
+    </section>
+
+
+    <!-- Profession Experience  Section -->
+    <section id="professional" class="container content-section text-center">
+        <h2>Professional Experience</h2>
+        <ul class="text-left" style="display:inline-block;vertical-align:middle;">
+            <p>I have completed multiple research internships:</p>
+            <ul class="text-left" style="display:inline-block;vertical-align:middle;">
+                <li> Nokia Bell Labs: Summers 2020</li>
+                <li> NSF REU: Summers 2011</li>
+
+            </ul>
+        </ul>
+    </section>
+
+
+    <!-- CV Section -->
+    <section id="CV" class="content-section text-center">
+        <div class="resume-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>View My CV</h2>
+                    <ul class="text-left" style="display:inline-block;vertical-align:middle;">
+                        <p>You can see my academic and professional experiences via the linked
+                            CV.</p>
+                    </ul>
+                    <a href="cv.pdf" class="btn btn-default btn-lg">CV</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Kristina Wheatman 2022</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
 </body>
+
 </html>
